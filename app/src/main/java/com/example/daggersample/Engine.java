@@ -1,4 +1,7 @@
 package com.example.daggersample;
 
-public class Engine {
+import javax.inject.Inject;
+
+public interface Engine {
+    public void start();
 }
